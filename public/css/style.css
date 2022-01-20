@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+
+:root {
+    --light-green: #a3da8d;
+    ---medium-green: #3a8e80;
+
+    --primary-font: #f3c892;
+    --secondary-font: #fff1bd;
+}
+
+/* Remove Arrow Type Number */
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* End Remove Arrow Type Number */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-custom {
+    background-color: var(--light-green) !important;
+    color: #146356 !important;
+}
+
+.nav-link {
+    color: #146356 !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+#logo-toko {
+    width: auto;
+    height: 60px;
+}
+
+.green-box {
+    background-color: var(---medium-green);
+    border-radius: 35px;
+}
+.green-box h1 {
+    color: var(--primary-font);
+}
+
+.green-box h4 {
+    color: var(--primary-font);
+}
+
+.green-box h6 {
+    color: var(--secondary-font);
+    height: 140px;
+}
+
+.green-box h5 {
+    font-size: 18px;
+    line-height: 27px;
+font-style: normal;
+font-weight: normal;
+    color: #FFF1BD;
+    color: var(--secondary-font);
+}
+
+.btn-oke {
+    background-color: var(--secondary-font);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #146356;
+    border: 1px solid #e8d695;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 100px;
+}
+
+.btn-oke:hover{
+    background-color: #146356 !important;
+    color: #FFF1BD;
+}
+
+
+/* Input Code */
+
+.form-input-kode {
+    background: rgba(255, 241, 189, 0.71);
+    border-radius: 100px;
+}
+
+.form-input-kode:focus {
+    background: rgba(255, 241, 189, 0.71) !important;
+    border-color: #28a745;
+    box-shadow: 0 0 0 0rem rgba(40, 167, 69, 0);
+}
+
+.img-1 {
+    position: relative;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    bottom: 1;
+}
+/* End Input Code */
+
+/* Detail Barang */
+
+th h5 {
+    color: var(--secondary-font);
+}
+
+td span {
+    color: var(--secondary-font);
+}
+
+.form-rincian label {
+    color: var(--secondary-font);
+}
+
+.form-rincian input {
+    background: #fff1bd;
+    border-radius: 10px;
+}
+
+.form-transparent{
+    background-color: transparent !important;
+    color: var(--secondary-font);
+    border: 0;
+    font-weight: bold;
+}
+
+/* End Detail Barang */
+
+/* transaksi */
+
+.form-transaksi label {
+    color: var(--secondary-font);
+}
+
+.form-transaksi input {
+    color: var(--secondary-font);
+    background: transparent !important;
+    border: 0px;
+    border-radius: 0px;
+}
+
+/* end transaksi */
+
+.lanjutkan {
+}
